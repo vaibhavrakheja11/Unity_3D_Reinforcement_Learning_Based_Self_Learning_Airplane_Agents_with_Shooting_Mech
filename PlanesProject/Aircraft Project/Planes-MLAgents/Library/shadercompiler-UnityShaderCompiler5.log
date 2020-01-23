@@ -1,0 +1,83 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.3.0f5/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.3.0f5/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=14 type=0 insize=8106 outsize=2932 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=19881 outsize=19594 kw=FOG_EXP2 _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=14 insize=7960 outsize=3081 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3157 outsize=3391 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=9919 outsize=2955 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2923 outsize=4240 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3102 outsize=4530 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2806 outsize=3257 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3288 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=4835 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3587 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3762 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3079 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3668 outsize=4034 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5176 outsize=7273 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3955 outsize=4838 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3379 outsize=3573 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=64076 outsize=8733 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=13802 outsize=26478 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2182 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2230 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2220 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2092 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=3332 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2667 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2717 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=1419 outsize=1449 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2509 outsize=2248 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2456 outsize=2195 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2300 outsize=1918 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2761 outsize=3083 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3029 outsize=3418 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2838 outsize=3177 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2871 outsize=3044 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=24335 outsize=5492 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=4913 outsize=8709 ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=1133 outsize=1374 kw=UNITY_PASS_SHADOWCASTER _ALPHATEST_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=2318 outsize=4526 kw=_MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE _SPECULAR_SETUP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+
+Quitting shader compiler process

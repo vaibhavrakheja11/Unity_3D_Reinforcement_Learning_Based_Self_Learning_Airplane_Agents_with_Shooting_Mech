@@ -1,0 +1,76 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.3.0f5/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.3.0f5/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=14 type=0 insize=1128 outsize=2430 kw=_SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=2318 outsize=16206 kw=FOG_EXP2 _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=14 insize=7960 outsize=2569 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3193 outsize=3669 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=9919 outsize=2957 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2923 outsize=4236 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7335 outsize=3332 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at Tensor.cginc(141): use of potentially uninitialized variable (ReadonlyTensor::SafeGet)
+  api=14 insize=44336 outsize=3740 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3230 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=2910 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3583 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=2940 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=10710 outsize=17846 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=6655 outsize=12112 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2087 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2244 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2077 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2135 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2918 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2773 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2632 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2311 outsize=1977 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2330 outsize=1964 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2396 outsize=2063 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2332 outsize=1997 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2349 outsize=2019 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3052 outsize=3308 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2944 outsize=3323 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2780 outsize=3115 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=24335 outsize=8584 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5492 outsize=9336 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=9332 outsize=2042 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=1128 outsize=1374 kw=_ALPHATEST_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=14 type=1 insize=2318 outsize=6021 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+
+Quitting shader compiler process

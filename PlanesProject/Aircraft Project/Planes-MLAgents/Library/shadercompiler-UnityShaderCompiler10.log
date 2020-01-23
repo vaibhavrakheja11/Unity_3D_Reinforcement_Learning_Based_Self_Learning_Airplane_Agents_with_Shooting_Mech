@@ -1,0 +1,94 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.3.0f5/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.3.0f5/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=14 type=1 insize=1128 outsize=539 kw=_SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=2318 outsize=5090 kw=FOG_EXP2 _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _NORMALMAP _METALLICSPECGLOSSMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=2318 outsize=16538 kw=FOG_EXP2 _EMISSION _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=2318 outsize=17965 kw=LIGHTMAP_ON FOG_EXP2 _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=14 insize=7960 outsize=2783 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3225 outsize=3625 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=9919 outsize=2952 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2960 outsize=4288 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3102 outsize=4531 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3354 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3400 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3119 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=2963 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=3612 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=44336 outsize=2941 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3373 outsize=3645 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3589 outsize=3826 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3669 outsize=3998 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3367 outsize=3486 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3366 outsize=3472 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3987 outsize=4880 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3379 outsize=3574 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at Tensor.cginc(155): use of potentially uninitialized variable (ReadonlyTensor::SafeGet)
+  api=14 insize=64076 outsize=13769 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5929 outsize=9933 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=1166 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=1622 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2172 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2663 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2868 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2730 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=29386 outsize=2677 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2251 outsize=1865 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2671 outsize=2671 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2290 outsize=1917 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2406 outsize=2117 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2790 outsize=3117 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2838 outsize=3198 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2798 outsize=3151 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2848 outsize=3178 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=24335 outsize=10869 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=2318 outsize=4526 kw=_MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=1128 outsize=2430 kw=_ALPHATEST_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=2318 outsize=4526 kw=_MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _MAIN_LIGHT_SHADOWS_CASCADE _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+
+Quitting shader compiler process

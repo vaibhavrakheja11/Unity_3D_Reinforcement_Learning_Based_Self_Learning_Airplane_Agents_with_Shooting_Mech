@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Checkpoint
   - agent
+  - Shooter
+  - Missile
+  - Target
   layers:
   - Default
   - TransparentFX

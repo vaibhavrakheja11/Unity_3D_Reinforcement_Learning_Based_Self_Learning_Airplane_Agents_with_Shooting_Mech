@@ -30,8 +30,10 @@ namespace Aircraft
             //actions to perform when the script wakes up
             //find all aircraft agents in the area.
 
+            //AircraftAgents = transform.GetComponentsInChildren<AircraftPlayer>().ToList();
             AircraftAgents = transform.GetComponentsInChildren<AircraftAgent>().ToList();
-            
+            //AircraftAgents = transform.GetComponents<AircraftAgent>().ToList();
+
             Debug.Assert(AircraftAgents.Count > 0, "No Aircrafts found");
 
             AircraftAcademy = FindObjectOfType<AircraftAcademy>();

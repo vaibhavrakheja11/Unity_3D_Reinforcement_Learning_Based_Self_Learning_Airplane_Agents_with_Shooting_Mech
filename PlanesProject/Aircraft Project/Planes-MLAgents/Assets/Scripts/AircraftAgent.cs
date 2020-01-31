@@ -46,9 +46,11 @@ namespace Aircraft
         public InputAction yawInput;
         public InputAction boostInput;
         public InputAction pauseInput;
+        public InputAction fireInput;
 
-
-
+        public GameObject fpsCam;
+        public float fireRange = 100f;
+        public float damage = 10f;
 
 
 
@@ -62,6 +64,7 @@ namespace Aircraft
         private float smoothRollChange = 0f;
         private float maxRollAngle = 45f;
         private bool boost;
+        private bool fire1;
 
         public override void InitializeAgent()
         {
@@ -75,7 +78,7 @@ namespace Aircraft
             pitchInput.Enable();
             boostInput.Enable();
             pauseInput.Enable();
-
+            fireInput.Enable();
 
 
             // Override the max step set in the inspector
@@ -104,6 +107,10 @@ namespace Aircraft
             boost = vectorAction[2] == 1;
             if (boost && !trail.emitting) trail.Clear();
             trail.emitting = boost;
+
+            fire1 = vectorAction[3] == 1;
+            if (fire1) ShootAirplane();
+
 
             if (frozen) return;
 
@@ -147,7 +154,7 @@ namespace Aircraft
             AddVectorObs(transform.InverseTransformDirection(nextCheckpointForward));
 
             // Observe ray perception results
-            string[] detectableObjects = { "Untagged", "Checkpoint" };
+            string[] detectableObjects = { "Untagged", "Checkpoint", "agent" };
 
             // Look ahead and upward
             // (2 tags + 1 hit/not + 1 distance to obj) * 3 ray angles = 12 values
@@ -186,10 +193,37 @@ namespace Aircraft
             rigidbody.velocity = Vector3.zero;
             rigidbody.angularVelocity = Vector3.zero;
             trail.emitting = false;
-            area.ResetAgentPosition(agent: this, randomize: area.trainingMode);
+            area.ResetAgentPosition(agent : this, randomize: area.trainingMode);
 
             // Update the step timeout if training
             if (area.trainingMode) nextStepTimeout = GetStepCount() + stepTimeout;
+        }
+
+
+        public void ShootAirplane()
+        {
+            ShootImprovedTracer shootTracerObj = GetComponentInChildren<ShootImprovedTracer>();
+            RaycastHit hit;
+            if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, fireRange))
+            {
+                Debug.Log(hit.transform.name);
+                
+                shootTracerObj.ShootEnemy(hit);
+                if (area.trainingMode)
+                {
+                    if (hit.transform.CompareTag("agent"))
+                    {
+                        AddReward(1f);
+                        Debug.Log("Reward + 1f");
+                            }
+                    else
+                    { AddReward(-.1f);
+                        Debug.Log("Reward - 0.1f");
+                    }
+                    nextStepTimeout = GetStepCount() + stepTimeout;
+                }
+
+            }
         }
 
         /// <summary>
@@ -344,6 +378,24 @@ namespace Aircraft
                     StartCoroutine(ExplosionReset());
                 }
             }
+
+            if (collision.transform.CompareTag("Missile"))
+            {
+                // We hit something that wasn't another agent
+                Debug.Log(transform.name + ": may day");
+                if (area.trainingMode)
+                {
+                    //AddReward(-1f);
+                    Done();
+                    return;
+                }
+                else
+                {
+                    StartCoroutine(ExplosionReset());
+                }
+            }
+
+
         }
         /// <summary>
         /// Resets the aircraft to the most recent complete checkpoint
@@ -373,6 +425,7 @@ namespace Aircraft
             pitchInput.Disable();
             boostInput.Disable();
             pauseInput.Disable();
+            fireInput.Disable();
         }
     }
 }

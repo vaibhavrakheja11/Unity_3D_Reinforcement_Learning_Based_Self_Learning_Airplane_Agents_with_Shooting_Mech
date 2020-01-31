@@ -286,8 +286,51 @@ MonoBehaviour:
   rollSpeed: 100
   boostMultiplier: 100
   meshObject: {fileID: 8867933996664922361}
-  explsionEffect: {fileID: 9121797206237948293}
+  explosionEffect: {fileID: 9121797206237948293}
   stepTimeout: 300
+  pitchInput:
+    m_Name: Pitch Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 85c6cad4-a0b6-47c3-9cc2-4372ccb9bb4d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+  yawInput:
+    m_Name: Yaw Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3af3fd78-6398-492e-b967-3af01a180dfd
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+  boostInput:
+    m_Name: Boost Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: cb555478-398d-47a7-80f7-455fa5a42952
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+  pauseInput:
+    m_Name: Pause Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 269cabb7-7b37-4407-bdb2-65531a7062d4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+  fireInput:
+    m_Name: Fire Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: ee8b4738-7627-49db-aa77-03b2f22f7148
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+  fpsCam: {fileID: 0}
+  fireRange: 100
+  damage: 10
 --- !u!54 &7858865052234347942
 Rigidbody:
   m_ObjectHideFlags: 0
